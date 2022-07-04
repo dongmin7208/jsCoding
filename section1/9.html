@@ -8,15 +8,14 @@
 </head>
 <body>
     <script>
-        // function solution(n){
-        //     let stringArr = n.splite('').join()
-        //     for(let i=0; n.length; i++){
-        //         n.replace('A','#');
-        //     }
-        //     console.log(n.replace('A','#'));
-        // }
-        // let n = 'BANANA'
-        // console.log(solution(n))
+        function solution(n){
+            let answer = n;
+            answer=answer.replace(/A/g, '#');
+            return answer;
+            
+        }
+        let str = 'BANANA'
+        console.log(solution(str))
     </script>
 </body>
 </html>
