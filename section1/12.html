@@ -11,16 +11,21 @@
         function solution(s){
             let answer='';
             for(let i of s){
-                if(i ===i.toLowerCase()){
-                    answer+= i.toUpperCase();
-                }else{
-                    answer+= i;
-                }
+                let num= i.charCodeAt();
+                if(num>= 97 && num<=122) answer+=String.fromCharCode(num-32);
+                else answer+= i;
+                // LowerCase  32를 빼면됨//
+
+                // if(i ===i.toLowerCase()){
+                //     answer+= i.toUpperCase();
+                // }else{
+                //     answer+= i;
+                // }
             }
             
             return answer;
         }
-         let str="COMdsfsdfPddsfsdfAMMING"
+         let str="COMdsfsdfPddsfsdfAMMINddddG"
         console.log(solution(str))
     </script>
 </body>
