@@ -6,7 +6,6 @@ function solution(s) {
     return answer;
 }
 
-let text =
-    "found7, time: DOMParserSupportedType; Yduts; ElementInternals, 7Dnuof";
+let text = "found7, time: study; Yduts; emit, 7Dnuof";
 
 console.log(solution(text));
