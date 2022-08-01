@@ -14,7 +14,7 @@ function solution(s, t) {
     for (let i = s.length - 1; i >= 0; i--) {
         if (s[i] === t) {
             p = 0;
-            answer.push(p);
+            answer[i] = 0;
         } else {
             p++;
             answer[i] = Math.min(answer[i], p);
