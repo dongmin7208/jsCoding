@@ -23,6 +23,13 @@ function solution(s, t) {
     return answer;
 }
 
-let text = "g)en2T0s8eSoft";
+let text = "teachermode e";
 
 console.log(solution(text));
+// [
+//     1001, 1002, 1003,
+//     1004, 1005, 1006,
+//     1007, 1006, 1005,
+//     1004, 1003, 1002,
+//     1001
+//   ]
